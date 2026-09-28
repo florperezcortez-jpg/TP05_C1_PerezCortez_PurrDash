@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b204eee637df58a46885493121ad8e84
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - coinPrefab: {fileID: 7995189624527616376, guid: 16e17d34040ac354d905548fc33fed41, type: 3}
+  - extraLifePrefab: {fileID: 4718687230535461015, guid: 952c008a994dfc141a9b40dde997da25, type: 3}
+  - invincibilityPrefab: {fileID: 3126788902999668827, guid: 0b20ec26dcc9b1c478b25268829b39c7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

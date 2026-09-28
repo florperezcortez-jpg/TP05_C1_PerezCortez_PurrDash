@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1b333e65d76a2834db56a08064b52df8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerData: {instanceID: 0}
+  - livesText: {instanceID: 0}
+  - invincibilityTimerText: {instanceID: 0}
+  - coinsText: {instanceID: 0}
+  - shieldParticles: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
