@@ -84,6 +84,13 @@ public class PlayerController : MonoBehaviour
             );
             jumpsRemaining--;
 
+            // reproduce el sonido de salto desde el SFXManager
+            SFXManager sfx = FindFirstObjectByType<SFXManager>();
+            if (sfx != null)
+            {
+                sfx.PlayJump();
+            }
+
             if (animator !=null)
             {
                 animator.SetBool("Jump", true);
@@ -170,6 +177,8 @@ public class PlayerController : MonoBehaviour
 
     private void GameOver()
     {
+        // reproducir sonido de muerte del personaje
+        FindFirstObjectByType<SFXManager>()?.PlayGameOver();
         gameObject.SetActive(false);
     }
 

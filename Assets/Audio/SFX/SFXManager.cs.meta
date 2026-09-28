@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c980de6e840aba948908dec6db4d729b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sfxAudioSource: {instanceID: 0}
+  - buttonClickClip: {fileID: 8300000, guid: 7933a08388246dc42a7d0a84dc3be5d0, type: 3}
+  - jumpClip: {fileID: 8300000, guid: e993e657b3e644c49b62cfacf55a85d5, type: 3}
+  - coinClip: {fileID: 8300000, guid: 965abee6faba3dc4d8bb28fbf05a9d47, type: 3}
+  - healthClip: {fileID: 8300000, guid: e3f986b1ec37c944eba1c8c9ba1c96f8, type: 3}
+  - invincibilityClip: {fileID: 8300000, guid: e3f986b1ec37c944eba1c8c9ba1c96f8, type: 3}
+  - dieClip: {fileID: 8300000, guid: 3d2e96d65f1f1694193a56782bcfa721, type: 3}
+  - gameOverClip: {fileID: 8300000, guid: ff119c865643906428fdd30870c7d608, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

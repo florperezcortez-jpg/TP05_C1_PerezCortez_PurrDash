@@ -12,6 +12,12 @@ public class InvencibilityPowerUp : MonoBehaviour
             
             if (player != null)
             {
+                // reproduce el sonido de invencibilidad desde el SFXManager central
+                SFXManager sfx = FindFirstObjectByType<SFXManager>();
+                if (sfx != null)
+                {
+                    sfx.PlayInvincibility();
+                }
                 player.ActivateInvincibility(duration);
                 Destroy(gameObject);
             }

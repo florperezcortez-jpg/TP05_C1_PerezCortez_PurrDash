@@ -13,6 +13,12 @@ public class ExtraLifePickable : MonoBehaviour
 
             if (player !=null)
             {
+                // reproduce el sonido de vida extra antes de destruir el objeto
+                SFXManager sfx = FindFirstObjectByType<SFXManager>();
+                if (sfx != null)
+                {
+                    sfx.PlayHealth();
+                }
                 player.AddLife(livesToAdd); //para q sume la vida al player
                 Destroy(gameObject); //destruye el pickable de la escena
             }

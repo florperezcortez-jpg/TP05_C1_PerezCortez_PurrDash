@@ -11,6 +11,8 @@ public class CoinPickable : MonoBehaviour
 PlayerController player = other.GetComponent<PlayerController>();
             if (player != null )
             {
+                // reproduce el sonido desde el SFXManager central
+                FindFirstObjectByType<SFXManager>()?.PlayCoin();
                 player.AddCoins(coinValue);
                 Destroy(gameObject);
             }

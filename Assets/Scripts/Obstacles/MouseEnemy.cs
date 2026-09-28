@@ -70,6 +70,9 @@ public class MouseEnemy : MonoBehaviour
 
     public void TakeDamage()
     {
+        // reproducir sonido cuando muere el ratón enemigo
+    FindFirstObjectByType<SFXManager>()?.PlayDie();
+
         DestroyObstacle();
     }
 
