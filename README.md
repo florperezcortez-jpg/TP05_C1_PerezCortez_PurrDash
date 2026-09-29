@@ -15,6 +15,7 @@
 - **Spacebar:** Jump
 - **ESC:** Pause / Main Menu Navigation
 
+link: https://florperezcortez-jpg.itch.io/purrdash
 ---
 
 ## ?? Credits & Assets
@@ -30,7 +31,7 @@ Special thanks to all the amazing creators whose assets made this project possib
   - World Tileset & Fruit Sprites: [Four Seasons Platformer Tileset 16x16](https://rottingpixels.itch.io/four-seasons-platformer-tileset-16x16free)
 
 ### Audio & Music
-- **SFX / Sound Effects:** Brackeys, Asbjørn Thirslund
+- **SFX / Sound Effects:** Brackeys, AsbjÃ¸rn Thirslund
 - **Background Music:** Brackeys, Sofia Thirslund
 
 ### Fonts
